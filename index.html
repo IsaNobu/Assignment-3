@@ -29,8 +29,8 @@
         theme: {
           extend: {
             colors: {
-              red: "#FF4240",
-              gray: "#ffffff99",
+              "red-color": "#FF4240",
+              "gray-color": "#ffffff99",
             },
           },
         },
@@ -66,7 +66,7 @@
                 tabindex="0"
                 class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
-                <li><a class="text-red">Home</a></li>
+                <li><a class="text-red-color">Home</a></li>
                 <li><a>About</a></li>
                 <li><a href="">Pages</a></li>
                 <li><a href="">Blog</a></li>
@@ -74,11 +74,11 @@
               </ul>
             </div>
             <h1 class="text-2xl font-extrabold lg:text-4xl">
-              Hockey<span class="text-red">’</span>s
+              Hockey<span class="text-red-color">’</span>s
             </h1>
           </div>
           <div class="hidden lg:block space-x-11">
-            <a class="text-red" href="">Home</a>
+            <a class="text-red-color" href="">Home</a>
             <a href="">About</a>
             <a href="">Pages</a>
             <a href="">Blog</a>
@@ -102,7 +102,7 @@
               </svg>
             </button>
             <button
-              class="bg-red py-2 px-4 lg:py-3 rounded-md text-white hover:bg-amber-600"
+              class="bg-red-color py-2 px-4 lg:py-3 rounded-md text-white hover:bg-amber-600"
             >
               Get Ticket
             </button>
@@ -111,7 +111,7 @@
       </nav>
       <!-- Banner Section -->
       <section>
-        <div class="carousel w-full mt-8 lg:mt-12">
+        <div class="carousel w-full mt-8 lg:mt-12 pb-48 lg:pb-16">
           <div id="slide1" class="carousel-item relative w-full">
             <img src="Images/1.png" class="w-[335px] lg:w-[1170px] mx-auto" />
             <div
@@ -126,7 +126,7 @@
               <h1 class="text-lg lg:text-2xl lg:mb-4">
                 Meet all the heroes from the field
               </h1>
-              <p class="text-gray">
+              <p class="text-gray-color">
                 meet all the heros you wanted <br class="lg:hidden" />
                 to meet when you were a child and make you're dream come true
               </p>
@@ -146,7 +146,7 @@
               <h1 class="text-lg lg:text-2xl lg:mb-4">
                 Meet all the heroes from the field
               </h1>
-              <p class="text-gray">
+              <p class="text-gray-color">
                 meet all the heros you wanted <br class="lg:hidden" />
                 to meet when you were a child and make you're dream come true
               </p>
@@ -155,5 +155,79 @@
         </div>
       </section>
     </header>
+    <hr />
+    <main class="lg:mt-8 mt-6">
+      <!-- percentage section  -->
+      <section>
+        <div class="text-center">
+          <h1 class="text-4xl font-extrabold">Professional Hockeys Club</h1>
+          <p class="mt-6">
+            See our statics you're self and the positive feedbacks
+          </p>
+        </div>
+        <div
+          class="mt-12 flex justify-center gap-8 flex-col lg:flex-row text-center"
+        >
+          <div>
+            <div
+              class="radial-progress text-red-color"
+              style="--value: 87"
+              role="progressbar"
+            >
+              <p class="text-xl text-black">87%</p>
+            </div>
+            <div>
+              <h1 class="text-2xl">Prayer Facility</h1>
+              <p class="text-gray">We have prayer facilities for everyone</p>
+            </div>
+          </div>
+          <div>
+            <div
+              class="radial-progress text-green-600"
+              style="--value: 90"
+              role="progressbar"
+            >
+              <p class="text-xl text-black">90%</p>
+            </div>
+            <div>
+              <h1 class="text-2xl">Experienced Coach</h1>
+              <p class="text-gray">
+                We got the best of the best coaches that will teach you
+              </p>
+            </div>
+          </div>
+          <div>
+            <div
+              class="radial-progress text-amber-400"
+              style="--value: 95"
+              role="progressbar"
+            >
+              <p class="text-xl text-black">95%</p>
+            </div>
+            <div>
+              <h1 class="text-2xl">Senior Player</h1>
+              <p class="text-gray">
+                We have players playing for over 3 year plus
+              </p>
+            </div>
+          </div>
+          <div>
+            <div
+              class="radial-progress text-blue-500"
+              style="--value: 80"
+              role="progressbar"
+            >
+              <p class="text-xl text-black">80%</p>
+            </div>
+            <div>
+              <h1 class="text-2xl">Training Ground</h1>
+              <p class="text-gray">
+                We have different training ground for everyone
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
